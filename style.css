@@ -61,7 +61,7 @@ footer {
     text-align: center;
     color: #888;
 }
-body {
+html {
     background: url('https://media.istockphoto.com/id/1499716815/photo/bright-stadium-arena-lights-smoke-bombs-empty-dark-scene-neon-light-spotlights-the-concrete.jpg?s=612x612&w=0&k=20&c=wZXDgDDWKlCT_3A-_HEf_LOrjhsLGtMj6qFQlgqcOCA=') no-repeat center center fixed;
     background-size: cover;
 }
