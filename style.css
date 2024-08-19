@@ -9,8 +9,9 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    background: url('https://www.fantasycouch.com/wp-content/uploads/2016/07/BG.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,13 +20,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
-    width: 100%;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    position: relative;
+    text-align: center;
 }
 
 header {
@@ -36,43 +31,30 @@ header {
 
 h1 {
     font-size: 2em;
-    color: #444;
+    color: #fff; /* Change color to stand out against the background */
+}
+
+.slots {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    gap: 10px; /* Space between slots */
+}
+
+.slot {
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent background for the slots */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
     text-align: center;
-}
-
-main {
-    margin-bottom: 20px;
-}
-
-.content h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: #555;
-}
-
-.content p {
-    line-height: 1.6;
-    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100px; /* Fixed width for the slots */
 }
 
 footer {
     border-top: 2px dashed #ccc;
     padding-top: 10px;
     text-align: center;
-    color: #888;
-}
-html {
-    background: url('https://media.istockphoto.com/id/1499716815/photo/bright-stadium-arena-lights-smoke-bombs-empty-dark-scene-neon-light-spotlights-the-concrete.jpg?s=612x612&w=0&k=20&c=wZXDgDDWKlCT_3A-_HEf_LOrjhsLGtMj6qFQlgqcOCA=') no-repeat center center fixed;
-    background-size: cover;
-}
-
-.watermark {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.1;
-    font-size: 4em;
-    color: #ccc;
-    z-index: -1;
+    color: #fff; /* Change color to stand out against the background */
 }
