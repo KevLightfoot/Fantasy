@@ -1,11 +1,78 @@
+/* styles.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+}
+
+header {
+    border-bottom: 2px dashed #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 h1 {
-    color: #333;
+    font-size: 2em;
+    color: #444;
+    text-align: center;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.content p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+footer {
+    border-top: 2px dashed #ccc;
+    padding-top: 10px;
+    text-align: center;
+    color: #888;
+}
+body {
+    background: url('https://media.istockphoto.com/id/1499716815/photo/bright-stadium-arena-lights-smoke-bombs-empty-dark-scene-neon-light-spotlights-the-concrete.jpg?s=612x612&w=0&k=20&c=wZXDgDDWKlCT_3A-_HEf_LOrjhsLGtMj6qFQlgqcOCA=') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
+    font-size: 4em;
+    color: #ccc;
+    z-index: -1;
 }
